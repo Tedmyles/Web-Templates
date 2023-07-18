@@ -1,0 +1,72 @@
+body {
+    background-image: url(background.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.logo {
+    display: flex;
+    padding-left: 512px;
+    
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    
+    justify-content: space-around;
+    background-color: rgb(134, 129, 129);
+    height: 40px;
+    align-items: center;
+    opacity: 0.2;
+    font-weight: bold;
+    width: 900px;
+    border-left: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: bolder;
+    opacity: 1;
+}
+.heading {
+    font-size: 50px;
+    color: rgb(238, 254, 254);
+    
+    padding-top: 40px;
+}
+.paragraph {
+    padding-top: 20px;
+    color: aliceblue;
+    
+}
+.reservation a {
+    color: aliceblue;
+    padding-top: 30px;
+    
+}
+.reservation {
+    padding-top: 30px;
+}
+.map {
+    padding-top: 70px;
+}
+.address {
+    height: 40px;
+    background-color: black;
+    opacity: 0.5;
+    color: aliceblue;
+    padding-top: 50px;
+    height: 40;
+    font-weight: bold;
+}
+.map iframe {
+    height: 350px;
+    width: 700px;
+}
+@media (max-width: 500px) {
+    .navbar { display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        justify-content: space-around;
+    }
+}
